@@ -1,0 +1,28 @@
+
+.tag-view {
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin: 10rpx 15rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.text-center {
+	text-align: center;
+	margin: 2% auto;
+}
+.text-left {
+	margin-left: 30rpx;
+}
+.font-style {
+	font-size: 22rpx;
+	font-style: 微软雅黑;
+}
+

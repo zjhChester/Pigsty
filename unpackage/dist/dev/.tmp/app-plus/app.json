@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/details/details"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "科学养猪，快乐致富",
+    "navigationBarBackgroundColor": "#333366",
+    "backgroundColor": "#FFFFFF"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "猪窝v3",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "用户登陆",
+  "navigationBarBackgroundColor": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section"
+  }
+}

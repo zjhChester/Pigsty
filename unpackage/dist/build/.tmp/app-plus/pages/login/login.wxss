@@ -1,0 +1,11 @@
+
+input{
+	outline: none;
+	height: 35px;
+	padding: 2%;
+}
+button{
+	margin-top: 100rpx;
+	background: #33CCCC;
+}
+

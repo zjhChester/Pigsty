@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/details/details",
+    "pages/msgDetail/msgDetail",
+    "pages/aboutMe/aboutMe"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "科学养猪，快乐致富",
+    "navigationBarBackgroundColor": "#333366",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

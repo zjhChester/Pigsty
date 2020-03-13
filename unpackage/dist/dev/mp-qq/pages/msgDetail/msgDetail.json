@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "文章详情",
+  "navigationBarBackgroundColor": "#CCCCCC",
+  "backgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "chunLei-modal": "/components/chunLei-modal/chunLei-modal",
+    "uni-section": "/components/uni-section/uni-section",
+    "chun-lei-modal": "/components/chunLei-modal/chunLei-modal"
+  }
+}

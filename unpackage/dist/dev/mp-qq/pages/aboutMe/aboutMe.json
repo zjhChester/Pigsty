@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "与我相关",
+  "navigationBarBackgroundColor": "#CCCCCC",
+  "backgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-section": "/components/uni-section/uni-section"
+  }
+}

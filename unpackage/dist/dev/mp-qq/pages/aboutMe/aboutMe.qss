@@ -1,0 +1,8 @@
+
+.content-box {
+	padding-top: 20rpx;
+}
+.content-box-text {
+	font-size: 30rpx;
+}
+

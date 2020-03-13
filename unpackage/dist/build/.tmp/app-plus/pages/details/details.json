@@ -1,0 +1,12 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "写文章",
+  "navigationBarBackgroundColor": "#CCCCCC",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "cpimg": "/components/cpimg/cpimg",
+    "chunLei-modal": "/components/chunLei-modal/chunLei-modal",
+    "chun-lei-modal": "/components/chunLei-modal/chunLei-modal"
+  }
+}

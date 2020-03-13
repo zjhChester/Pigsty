@@ -1,0 +1,73 @@
+
+.tag-view {
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin: 10rpx 15rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.text-center {
+	text-align: center;
+	margin: 2% auto;
+}
+.text-left {
+	margin-left: 30rpx;
+}
+.font-style {
+	font-size: 22rpx;
+	font-style: 微软雅黑;
+}
+.image-box {
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	
+	height: 350rpx;
+	overflow: hidden;
+}
+.image {
+	
+	width: 100%; 
+	height: 100%;
+	
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.footer-box {
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.footer-box__item {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 10rpx 0;
+	font-size: 30rpx;
+	color: #666;
+}
+
+

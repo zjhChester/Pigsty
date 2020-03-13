@@ -1,0 +1,15 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-pagination": "/components/uni-pagination/uni-pagination",
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "chunLei-modal": "/components/chunLei-modal/chunLei-modal",
+    "chun-lei-modal": "/components/chunLei-modal/chunLei-modal"
+  }
+}
