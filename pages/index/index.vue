@@ -13,9 +13,9 @@
 							<rich-text :nodes="msg.content" class="content-box-text"></rich-text>
 						</view>
 						<view class="">
-							<audio style="text-align: left" :src="'https://tts.baidu.com/text2audio?tex='+msg.content+'&cuid=baike&lan=ZH&ctp=1&pdt=301&vol=9&rate=32&per=0&qq-pf-to=pcqq.c2c'"  name="文章"   controls></audio>
+							<audio :poster="'http://zjhwork.xyz:8080/images/'+msg.username+'.png'" style="text-align: left" :src="'https://tts.baidu.com/text2audio?tex='+msg.content+'&cuid=baike&lan=ZH&ctp=1&pdt=301&vol=9&rate=32&per=0&qq-pf-to=pcqq.c2c'"  name="文章" :author="msg.nickName"   controls></audio>
 						</view> 
-					</view>
+					</view> 
 					<template slot="footer">
 						<view class="">
 							<text style="font-size: 20rpx;position: absolute;right: 10rpx;">{{msg.createTime}}</text>

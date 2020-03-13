@@ -1607,9 +1607,9 @@ uni$1;exports.default = _default;
 /***/ }),
 
 /***/ 129:
-/*!********************************************************************!*\
-  !*** E:/Hubuilder项目地址/Pigsty/Pigsty/components/uni-icons/icons.js ***!
-  \********************************************************************/
+/*!***********************************************************!*\
+  !*** E:/gitResponse/Pigsty/components/uni-icons/icons.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7932,9 +7932,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 37:
-/*!*********************************************************************************************!*\
-  !*** E:/Hubuilder项目地址/Pigsty/Pigsty/components/js_sdk/gsq-image-tools/image-tools/index.js ***!
-  \*********************************************************************************************/
+/*!************************************************************************************!*\
+  !*** E:/gitResponse/Pigsty/components/js_sdk/gsq-image-tools/image-tools/index.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8090,9 +8090,9 @@ function base64ToPath(base64) {
 /***/ }),
 
 /***/ 4:
-/*!*************************************************!*\
-  !*** E:/Hubuilder项目地址/Pigsty/Pigsty/pages.json ***!
-  \*************************************************/
+/*!****************************************!*\
+  !*** E:/gitResponse/Pigsty/pages.json ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9000,21 +9000,21 @@ module.exports = {"_from":"@dcloudio/uni-stat@alpha","_id":"@dcloudio/uni-stat@2
 /***/ }),
 
 /***/ 7:
-/*!******************************************************************!*\
-  !*** E:/Hubuilder项目地址/Pigsty/Pigsty/pages.json?{"type":"style"} ***!
-  \******************************************************************/
+/*!*********************************************************!*\
+  !*** E:/gitResponse/Pigsty/pages.json?{"type":"style"} ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "enablePullDownRefresh": true, "usingComponents": { "uni-card": "/components/uni-card/uni-card", "uni-tag": "/components/uni-tag/uni-tag", "uni-fab": "/components/uni-fab/uni-fab", "uni-pagination": "/components/uni-pagination/uni-pagination", "uni-section": "/components/uni-section/uni-section", "chun-lei-modal": "/components/chunLei-modal/chunLei-modal", "uni-list": "/components/uni-list/uni-list", "uni-list-item": "/components/uni-list-item/uni-list-item" }, "usingAutoImportComponents": { "uni-card": "/components/uni-card/uni-card", "uni-tag": "/components/uni-tag/uni-tag", "uni-drawer": "/components/uni-drawer/uni-drawer", "uni-section": "/components/uni-section/uni-section", "uni-list": "/components/uni-list/uni-list", "uni-list-item": "/components/uni-list-item/uni-list-item", "uni-pagination": "/components/uni-pagination/uni-pagination", "uni-fab": "/components/uni-fab/uni-fab", "chunLei-modal": "/components/chunLei-modal/chunLei-modal" } }, "pages/login/login": { "navigationBarTextStyle": "white", "navigationBarTitleText": "用户登陆", "navigationBarBackgroundColor": "#000000", "backgroundColor": "#FFFFFF", "usingComponents": { "uni-section": "/components/uni-section/uni-section" }, "usingAutoImportComponents": { "uni-section": "/components/uni-section/uni-section" } }, "pages/details/details": { "navigationBarTextStyle": "black", "navigationBarTitleText": "写文章", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF", "usingComponents": { "uni-section": "/components/uni-section/uni-section", "cpimg": "/components/cpimg/cpimg", "chun-lei-modal": "/components/chunLei-modal/chunLei-modal" }, "usingAutoImportComponents": { "uni-section": "/components/uni-section/uni-section", "cpimg": "/components/cpimg/cpimg", "chunLei-modal": "/components/chunLei-modal/chunLei-modal" } }, "pages/msgDetail/msgDetail": { "navigationBarTextStyle": "black", "navigationBarTitleText": "文章详情", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF", "enablePullDownRefresh": true, "usingComponents": { "uni-section": "/components/uni-section/uni-section", "uni-card": "/components/uni-card/uni-card", "chun-lei-modal": "/components/chunLei-modal/chunLei-modal" }, "usingAutoImportComponents": { "uni-card": "/components/uni-card/uni-card", "chunLei-modal": "/components/chunLei-modal/chunLei-modal" } }, "pages/aboutMe/aboutMe": { "navigationBarTextStyle": "black", "navigationBarTitleText": "与我相关", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF", "enablePullDownRefresh": true, "usingComponents": { "uni-section": "/components/uni-section/uni-section", "uni-card": "/components/uni-card/uni-card" }, "usingAutoImportComponents": { "uni-card": "/components/uni-card/uni-card" } } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "科学养猪，快乐致富", "navigationBarBackgroundColor": "#333366", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "enablePullDownRefresh": true }, "pages/login/login": { "navigationBarTextStyle": "white", "navigationBarTitleText": "用户登陆", "navigationBarBackgroundColor": "#000000", "backgroundColor": "#FFFFFF" }, "pages/details/details": { "navigationBarTextStyle": "black", "navigationBarTitleText": "写文章", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF" }, "pages/msgDetail/msgDetail": { "navigationBarTextStyle": "black", "navigationBarTitleText": "文章详情", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF", "enablePullDownRefresh": true }, "pages/aboutMe/aboutMe": { "navigationBarTextStyle": "black", "navigationBarTitleText": "与我相关", "navigationBarBackgroundColor": "#CCCCCC", "backgroundColor": "#FFFFFF", "enablePullDownRefresh": true } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "科学养猪，快乐致富", "navigationBarBackgroundColor": "#333366", "backgroundColor": "#FFFFFF" } };exports.default = _default;
 
 /***/ }),
 
 /***/ 8:
-/*!*****************************************************************!*\
-  !*** E:/Hubuilder项目地址/Pigsty/Pigsty/pages.json?{"type":"stat"} ***!
-  \*****************************************************************/
+/*!********************************************************!*\
+  !*** E:/gitResponse/Pigsty/pages.json?{"type":"stat"} ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
