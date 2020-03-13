@@ -328,6 +328,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
 {
   components: {
     uniCard: uniCard,
@@ -518,6 +521,9 @@ __webpack_require__.r(__webpack_exports__);
       } else {
         this.showVersion = false;
       }
+    },
+    clickAboutMeTag: function clickAboutMeTag() {
+      this.showVersion = true;
     },
     add_trigger: function add_trigger(e) {
       /*监听浮动按钮*/
