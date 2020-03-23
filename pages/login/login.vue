@@ -31,11 +31,11 @@
 			this.clientStatus = 'wx';
 			//#endif
 			
-		},
+		},  
 		methods: {
-			//平台登陆
+			//平台登陆 
 			bindgetuserinfo(e){
-				console.log()
+				console.log(e)
 				const userNickName = e.detail.userInfo.nickName;
 				if(userNickName == '张小皮' || userNickName == 'Chester'){
 					this.loginRequest('zjh','123');

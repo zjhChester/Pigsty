@@ -219,7 +219,7 @@ __webpack_require__.r(__webpack_exports__);
 
     },
     toMsgDetail: function toMsgDetail(msgId) {
-      uni.redirectTo({
+      uni.navigateTo({
         url: '../msgDetail/msgDetail?jsd=' + this.JSESSIONID + '&msgId=' + msgId });
 
 

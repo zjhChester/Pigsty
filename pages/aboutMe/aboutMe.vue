@@ -72,7 +72,7 @@
 					},
 					//#endif
 					success: res => {
-						uni.showToast({
+						uni.showToast({ 
 							title: '已读！',
 							icon:'none',
 							duration:1500
@@ -81,7 +81,7 @@
 				});
 			},
 			toMsgDetail(msgId){
-				uni.redirectTo({
+				uni.navigateTo({
 					url: '../msgDetail/msgDetail?jsd='+this.JSESSIONID+'&msgId='+msgId
 					
 				});
