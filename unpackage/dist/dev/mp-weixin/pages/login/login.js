@@ -148,16 +148,45 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 {
   components: {
     uniSection: uniSection },
 
   data: function data() {
     return {
-      user: { username: '', password: '' } };
+      user: { username: '', password: '' },
+      clientStatus: '' };
+
+  },
+  onLoad: function onLoad() {
+
+
+
+
+
+    this.clientStatus = 'wx';
+
 
   },
   methods: {
+    //平台登陆
+    bindgetuserinfo: function bindgetuserinfo(e) {
+      console.log();
+      var userNickName = e.detail.userInfo.nickName;
+      if (userNickName == '张小皮' || userNickName == 'Chester') {
+        this.loginRequest('zjh', '123');
+      } else if (userNickName == '世事' || userNickName == '-') {
+        this.loginRequest('xyy', '123');
+      } else {
+        uni.showToast({
+          title: '该账号未通过管理员审核哦！',
+          duration: 2000,
+          icon: 'none' });
+
+      }
+    },
     usernameSetValue: function usernameSetValue(e) {
       this.user.username = e.detail.value;
     },

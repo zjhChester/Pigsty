@@ -5,8 +5,10 @@
 		<uni-section title="密码" type="line"></uni-section>
 		<input @input="passwordSetValue" type="password" value="" placeholder="此处输入密码信息"/>
 		<button type="primary" @click="checkUserInfo">登陆</button>
+		<uni-section v-if="clientStatus == 'qq' || clientStatus == 'wx'" title="平台快捷登录" type="circle"></uni-section>
+		<button v-if="clientStatus == 'qq' || clientStatus == 'wx'" type="primary" open-type="getUserInfo"@getuserinfo="bindgetuserinfo">平台授权登陆</button>
 	</view>
-</template>
+</template> 
 
 <script>
 	import uniSection from '@/components/uni-section/uni-section.vue'
@@ -16,10 +18,37 @@
 		},
 		data() {
 			return {
-				user:{username:'',password:''}
+				user:{username:'',password:''},
+				clientStatus:''
 			}
 		},
+		onLoad() {
+			//#ifdef MP-QQ
+			this.clientStatus = 'qq';
+			//#endif
+			
+			//#ifdef MP-WEIXIN
+			this.clientStatus = 'wx';
+			//#endif
+			
+		},
 		methods: {
+			//平台登陆
+			bindgetuserinfo(e){
+				console.log()
+				const userNickName = e.detail.userInfo.nickName;
+				if(userNickName == '张小皮' || userNickName == 'Chester'){
+					this.loginRequest('zjh','123');
+				}else if(userNickName == '世事' || userNickName == '-'){
+					this.loginRequest('xyy','123')
+				}else{
+					uni.showToast({
+						title: '该账号未通过管理员审核哦！',
+						duration:2000,
+						icon:'none'
+					});
+				}
+			},
 			usernameSetValue(e){
 				this.user.username = e.detail.value
 			},

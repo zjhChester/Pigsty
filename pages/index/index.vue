@@ -2,7 +2,7 @@
 	<!-- qqid 1110251339 -->
 	<view>
 		<view v-if="reminderCount!=0" class="noticeAboutMe" style="margin-top: 10rpx;text-align: center;">
-			<text @click="clickAboutMeTag" style="padding-left:30rpx;padding-right:30rpx;border: 1px solid #F1F1F1;background-color: #F8F8F8;border-radius: 10rpx;padding: 10rpx;font-size: 20rpx;font-weight: 800;" space="nbsp">猪猪！这里有<text space="nbsp" style="color: red;">({{reminderCount}})</text>   条与你相关  ></text>
+			<text @click="clickAboutMeTag" style="padding-left:30rpx;padding-right:30rpx;border: 1px solid #F1F1F1;background-color: #F8F8F8;border-radius: 10rpx;padding: 10rpx;font-size: 20rpx;font-weight: 800;" space="nbsp">猪猪！这里有<text space="nbsp" style="color: red;width: 50rpx;height: 50rpx;">({{reminderCount}})</text>   条与你相关  ></text>
 		</view>
 		<view class="main_content">
 			<view class="example-box" v-for="(msg,i) in msgArr" :key="i">
